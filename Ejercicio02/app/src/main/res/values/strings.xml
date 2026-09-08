@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DM_eohs_02</string>
+    <string name="nombre">Ingresa tu nombre</string>
+    <string name="digita_nombre">Digita tu nombre</string>
+    <string name="saludo">Hola, soy</string>
+    <string name="btn_saludar">Saludar</string>
+</resources>
