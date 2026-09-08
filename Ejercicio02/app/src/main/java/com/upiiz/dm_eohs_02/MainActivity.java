@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     //1. Declarar variables
     EditText etNombre;
     TextView tvSaludo;
@@ -38,7 +38,18 @@ public class MainActivity extends AppCompatActivity {
         btnSaludo = findViewById(R.id.btnSaludo);
         //3. Desarrollo
         //3.1 el boton que escuche click o touch
-        btnSaludo.setOnClickListener((View.OnClickListener) this);
+        btnSaludo.setOnClickListener(this);
 
+    }
+
+    @Override
+    public void onClick(View v) {
+        // Debemos de saludar: Hola, soy Robot
+        //1. Obtener el nombre del etNombre
+        String nombre = etNombre.getText().toString();
+        //2. Concatenar Hola soy, + "etNombre"
+        String saludo = "Hola, soy " + nombre;
+        //3. Asignarlo a tvSaludo
+        tvSaludo.setText(saludo);
     }
 }
