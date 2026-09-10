@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:paddingTop="45dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metros"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etMetros"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:hint="Ingrese la cantidad de metros"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/pies"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etPies"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:hint="Ingrese la cantidad de pies"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPies"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pies"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnMetros"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Metros"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
