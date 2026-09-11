@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MN_eohs_04</string>
+    <string name="ing_num">Ingrese número</string>
+    <string name="ingresar_num">Ingrese un número</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicación">*</string>
+    <string name="division">/</string>
+    <string name="resultado">0</string>
+</resources>
