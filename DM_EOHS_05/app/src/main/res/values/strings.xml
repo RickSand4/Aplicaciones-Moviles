@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DM_EOHS_05</string>
+    <string name="texto_display">0</string>
+    <string name="boton_7">7</string>
+    <string name="boton_8">8</string>
+    <string name="boton_9">9</string>
+    <string name="boton_mas">+</string>
+    <string name="boton_4">4</string>
+    <string name="boton_5">5</string>
+    <string name="boton_6">6</string>
+    <string name="boton_menos">-</string>
+    <string name="boton_1">1</string>
+    <string name="boton_2">2</string>
+    <string name="boton_3">3</string>
+    <string name="boton_division">/</string>
+    <string name="boton_0">0</string>
+    <string name="boton_punto">.</string>
+    <string name="boton_igual">=</string>
+    <string name="boton_multiplicacion">*</string>
+</resources>
