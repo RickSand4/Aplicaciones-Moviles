@@ -17,4 +17,8 @@
     <string name="boton_punto">.</string>
     <string name="boton_igual">=</string>
     <string name="boton_multiplicacion">*</string>
+    <string name="boton_residuo">%</string>
+    <string name="boton_parentesis">(</string>
+    <string name="boton_par">)</string>
+    <string name="boton_limpiar">C</string>
 </resources>
