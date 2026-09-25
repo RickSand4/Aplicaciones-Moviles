@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DM_EOHS_06</string>
+    <string name="tipo_de_listados">Tipo de listados!</string>
+    <string name="listview_b_sico">ListView Básico</string>
+    <string name="list_view_personalizado">Listview personalizado</string>
+    <string name="recyclerview_b_sico">RecyclerView Básico</string>
+    <string name="recyclerview_personalizado">RecyclerView Personalizado</string>
+    <string name="regresar">Regresar</string>
+    <string name="tv_user">Erick Osbaldo Hinojoza Sandate</string>
+    <string name="tvUser_desc">La fakin cabra del muay thai</string>
+    <string name="Ultima_conexion">8:00p.m.</string>
+</resources>
