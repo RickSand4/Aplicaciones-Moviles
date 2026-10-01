@@ -5,9 +5,9 @@ public class User {
     private String nombre;
     private String lastMessage;
     private String lastConexion;
-    private String image;
+    private int image;
 
-    public User(Long id, String nombre, String lastMessage, String lastConexion, String image) {
+    public User(Long id, String nombre, String lastMessage, String lastConexion, int image) {
         this.id = id;
         this.nombre = nombre;
         this.lastMessage = lastMessage;
@@ -47,11 +47,8 @@ public class User {
         this.lastConexion = lastConexion;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
 }
+
