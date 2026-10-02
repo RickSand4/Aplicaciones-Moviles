@@ -52,7 +52,7 @@ public class CustomListViewActivity extends AppCompatActivity implements View.On
     private void cargarUsuarios() {
         //Memoria, DATABASE, API, ETC.
         listaUsuarios = new ArrayList<>();
-        listaUsuarios.add(new User(1L, "Sofía", "JAJA el pitillo \uD83D\uDD25", "10p.m.", R.drawable.user));
+        listaUsuarios.add(new User(1L, "Sofía", "Qué pelicula! \uD83D\uDD25", "10p.m.", R.drawable.user));
         listaUsuarios.add(new User(2L, "Mateo", "¿Vas a ir mañana a la facultad?", "9:45p.m.", R.drawable.user));
         listaUsuarios.add(new User(3L, "Ana", "¡Gracias por los apuntes de la clase! 😊", "8:30p.m.", R.drawable.user));
         listaUsuarios.add(new User(4L, "Luis", "No te olvides de subir los cambios al repo de GitHub.", "7:15p.m.", R.drawable.user));
