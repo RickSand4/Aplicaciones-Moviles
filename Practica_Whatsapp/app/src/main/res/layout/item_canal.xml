@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivCanal"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/user"
+        android:contentDescription="@string/foto_usuario" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvTituloCanal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_principal" />
+        <TextView
+            android:id="@+id/tvMensajeCanal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/texto_secundario"
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        android:gravity="end">
+        <TextView
+            android:id="@+id/tvFechaCanal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/texto_secundario" />
+        <TextView
+            android:id="@+id/tvSinLeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="26dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/fondo_contador"
+            android:textColor="@color/estado_visto"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="Base.Theme.Practica_Whatsapp"
+        parent="Theme.Material3.Light.NoActionBar">
+        <item
+            name="colorPrimary">@color/verde_whatsapp</item>
+        <item
+            name="colorOnPrimary">#FFFFFF</item>
+        <item
+            name="android:windowBackground">@null</item>
+        <item
+            name="android:windowLightStatusBar">true</item>
+    </style>
+    <style
+        name="Theme.Practica_Whatsapp"
+        parent="Base.Theme.Practica_Whatsapp" />
+    <style
+        name="TituloSeccion">
+        <item
+            name="android:layout_width">match_parent</item>
+        <item
+            name="android:layout_height">wrap_content</item>
+        <item
+            name="android:layout_marginTop">20dp</item>
+        <item
+            name="android:layout_marginBottom">12dp</item>
+        <item
+            name="android:textSize">20sp</item>
+        <item
+            name="android:textStyle">bold</item>
+        <item
+            name="android:textColor">@color/texto_principal</item>
+    </style>
+</resources>
