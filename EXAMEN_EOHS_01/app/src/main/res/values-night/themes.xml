@@ -1,0 +1,14 @@
+<resources>
+    <style name="Base.Theme.EXAMEN_EOHS_01" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/surface</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.EXAMEN_EOHS_01" parent="Base.Theme.EXAMEN_EOHS_01" />
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azulito">#135bc7</color>
+    <color name="primary">#1762CE</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F6F8FC</color>
+    <color name="text_primary">#172B46</color>
+    <color name="text_secondary">#52647A</color>
+    <color name="divider">#E7EDF5</color>
+</resources>

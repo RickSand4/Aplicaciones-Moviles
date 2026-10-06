@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="tagline">Conecta con tus amigos</string>
+    <string name="login_subtitle">Inicia sesión para seguir conversando.</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="new_here">¿Aún no tienes una cuenta?</string>
+    <string name="register">Registro</string>
+    <string name="register_heading">Crea tu cuenta</string>
+    <string name="register_subtitle">Completa tus datos para comenzar.</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="email">Correo electrónico</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="register_button">Registrarse</string>
+    <string name="have_account">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="required_user">Escribe tu usuario.</string>
+    <string name="invalid_login">Usuario o contraseña incorrectos.</string>
+    <string name="invalid_name">El nombre debe tener al menos 3 caracteres.</string>
+    <string name="required_password">Escribe una contraseña.</string>
+    <string name="password_mismatch">Las contraseñas deben coincidir y no estar vacías.</string>
+    <string name="registration_success">Registro validado. Inicia sesión con admin y la clave 123456.</string>
+    <string name="users">Usuarios</string>
+    <string name="users_caption">20 usuarios · Selecciona una conversación</string>
+    <string name="back">Volver</string>
+    <string name="logout">Volver al inicio de sesión</string>
+    <string name="online">En línea</string>
+    <string name="conversation_date">HOY</string>
+    <string name="message_hint">Escribe un mensaje…</string>
+    <string name="send">Enviar mensaje</string>
+    <string name="chevron">›</string>
+    <string name="btnContraseñaOlvidada">¿Olvidaste tu contraseña?</string>
+    <string name="GuardarSesion">Guardar sesión iniciada</string>
+</resources>
