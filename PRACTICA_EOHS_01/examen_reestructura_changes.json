@@ -1,0 +1,38 @@
+{
+  "deletes": [
+    "app\\src\\main\\res\\layout\\row_user.xml",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\MessageAdapter.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\BaseActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\UserAdapter.java",
+    "app\\src\\main\\res\\layout\\row_message_out.xml",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\RegisterActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\User.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\DemoData.java",
+    "app\\src\\main\\res\\layout\\activity_users.xml",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\Message.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\Validation.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\UsersActivity.java",
+    "app\\src\\main\\res\\layout\\row_message_in.xml",
+    "app\\src\\main\\res\\layout\\activity_register.xml",
+    "app\\src\\test\\java\\com\\upiiz\\examen_eohs_01\\ExamRequirementsTest.java"
+  ],
+  "writes": [
+    "README.md",
+    "app\\src\\androidTest\\java\\com\\upiiz\\examen_eohs_01\\ExamFlowTest.java",
+    "app\\src\\main\\AndroidManifest.xml",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\ChatActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\CustomListViewActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\MainActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\RegistroActivity.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\adapters\\CustomAdapter.java",
+    "app\\src\\main\\java\\com\\upiiz\\examen_eohs_01\\adapters\\MensajeAdapter.java",
+    "app\\src\\main\\java\\model\\Mensaje.java",
+    "app\\src\\main\\java\\model\\User.java",
+    "app\\src\\main\\res\\layout\\activity_chat.xml",
+    "app\\src\\main\\res\\layout\\activity_custom_list_view.xml",
+    "app\\src\\main\\res\\layout\\activity_main.xml",
+    "app\\src\\main\\res\\layout\\activity_registro.xml",
+    "app\\src\\main\\res\\layout\\custom_list_item.xml",
+    "app\\src\\main\\res\\layout\\custom_list_mensaje.xml"
+  ]
+}

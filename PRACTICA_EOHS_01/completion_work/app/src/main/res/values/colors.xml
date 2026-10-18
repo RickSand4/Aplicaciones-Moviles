@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="verde_whatsapp">#075E54</color>
+    <color
+        name="fondo_pantalla">#FFFFFF</color>
+    <color
+        name="texto_principal">#202020</color>
+    <color
+        name="texto_secundario">#707070</color>
+    <color
+        name="estado_nuevo">#25D366</color>
+    <color
+        name="estado_visto">#FFFFFF</color>
+    <color
+        name="fondo_chat">#F0EEE8</color>
+</resources>

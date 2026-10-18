@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.circleimageview)
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)

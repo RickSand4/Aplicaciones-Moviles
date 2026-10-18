@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PRACTICA_EOHS_01</string>
+    <string name="app_name">WhatsApp · Práctica</string>
+    <string name="message_hint">Mensaje</string>
+    <string name="send_message">Enviar mensaje</string>
 </resources>

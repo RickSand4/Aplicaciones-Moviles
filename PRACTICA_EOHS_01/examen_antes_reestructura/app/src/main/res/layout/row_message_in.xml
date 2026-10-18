@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="start" android:paddingVertical="5dp">
+  <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="48dp" android:orientation="vertical" android:padding="12dp" android:background="@drawable/bubble_in">
+    <TextView android:id="@+id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280dp" android:textColor="#172B46" android:textSize="15sp"/>
+    <TextView android:id="@+id/message_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:layout_marginTop="5dp" android:textColor="#52647A" android:textSize="11sp"/>
+  </LinearLayout>
+</LinearLayout>
