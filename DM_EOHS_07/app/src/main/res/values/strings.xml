@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DM_EOHS_07</string>
+    <string name="login_main">Ingresar</string>
+    <string name="login_welcome">¡Hola! ¡Qué gusto verte de nuevo!</string>
+    <string name="login_email">Email</string>
+    <string name="username">example@gmail.com</string>
+</resources>
