@@ -32,6 +32,10 @@ android {
 }
 
 dependencies {
+    //Cliente Retrofit - permite consumir una API
+    implementation(libs.retrofit)
+    //Gson - Mapear clase y JSON
+    implementation(libs.converter.gson)
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
