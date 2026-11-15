@@ -1,3 +1,57 @@
 <resources>
-    <string name="app_name">DM_EOHS_08</string>
+    <string name="app_name">Clientes</string>
+
+    <!-- Generales -->
+    <string name="clientes">Clientes</string>
+    <string name="nuevo_cliente">Nuevo cliente</string>
+    <string name="editar_cliente">Editar cliente</string>
+    <string name="detalle_cliente">Detalle del cliente</string>
+    <string name="guardar">Guardar</string>
+    <string name="guardando">Guardando…</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="volver">Volver</string>
+    <string name="agregar_cliente">Agregar cliente</string>
+    <string name="actualizar_lista">Actualizar lista</string>
+    <string name="opciones_cliente">Opciones del cliente</string>
+
+    <!-- Listado -->
+    <string name="lista_vacia">No hay clientes registrados.\nPresiona + para agregar el primero.</string>
+    <string name="lista_error">No se pudo cargar la lista de clientes.\nDesliza hacia abajo o presiona Reintentar.</string>
+    <string name="cliente_id_formato">#%1$d</string>
+    <string name="registrado">Registrado</string>
+    <string name="no_registrado">No registrado</string>
+    <string name="telefono_formato">Tel: %1$s</string>
+
+    <!-- Formulario -->
+    <string name="campo_nombre">Nombre completo</string>
+    <string name="campo_correo">Correo electrónico</string>
+    <string name="campo_telefono">Teléfono</string>
+    <string name="campo_direccion">Dirección</string>
+    <string name="campo_registrado">Registrado</string>
+    <string name="error_campo_obligatorio">Este campo es obligatorio.</string>
+    <string name="error_correo_invalido">Ingresa un correo electrónico válido.</string>
+    <string name="error_telefono_invalido">Ingresa un teléfono válido (mínimo 7 dígitos; se permiten + - ( ) y espacios).</string>
+    <string name="cliente_registrado_exito">Cliente registrado correctamente.</string>
+    <string name="cliente_actualizado_exito">Cliente actualizado correctamente.</string>
+
+    <!-- Detalle -->
+    <string name="campo_id">Identificador</string>
+    <string name="campo_nombre_corto">Nombre</string>
+    <string name="campo_correo_corto">Correo</string>
+    <string name="campo_telefono_corto">Teléfono</string>
+    <string name="campo_direccion_corto">Dirección</string>
+    <string name="campo_estado">Estado</string>
+    <string name="campo_enlaces">Enlaces</string>
+    <string name="sin_enlaces">Sin enlaces disponibles.</string>
+    <string name="valor_no_disponible">No disponible</string>
+    <string name="confirmar_eliminar_titulo">Eliminar cliente</string>
+    <string name="confirmar_eliminar_mensaje">¿Estás seguro de que deseas eliminar a \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="cliente_eliminado_exito">Cliente eliminado correctamente.</string>
+
+    <!-- Errores -->
+    <string name="error_respuesta_vacia">El servidor devolvió una respuesta vacía o incompleta.</string>
+    <string name="error_generico">Ocurrió un error inesperado.</string>
 </resources>

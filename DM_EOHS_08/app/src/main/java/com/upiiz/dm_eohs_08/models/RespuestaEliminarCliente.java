@@ -3,9 +3,11 @@ package com.upiiz.dm_eohs_08.models;
 public class RespuestaEliminarCliente {
     private int estado;
     private String mensaje;
-    public RespuestaEliminarCliente() {
+    private Object datos;
 
+    public RespuestaEliminarCliente() {
     }
+
     public RespuestaEliminarCliente(int estado, String mensaje) {
         this.estado = estado;
         this.mensaje = mensaje;
@@ -27,4 +29,7 @@ public class RespuestaEliminarCliente {
         this.mensaje = mensaje;
     }
 
+    public Object getDatos() {
+        return datos;
+    }
 }

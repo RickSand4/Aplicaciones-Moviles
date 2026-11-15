@@ -36,10 +36,14 @@ dependencies {
     implementation(libs.retrofit)
     //Gson - Mapear clase y JSON
     implementation(libs.converter.gson)
+    //OkHttp - Configuracion de timeouts
+    implementation(libs.okhttp)
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
+    implementation(libs.recyclerview)
+    implementation(libs.swiperefreshlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
