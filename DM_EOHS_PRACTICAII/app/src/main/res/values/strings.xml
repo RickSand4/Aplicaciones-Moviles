@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">DM_EOHS_PRACTICA-II</string>
+    <string name="app_name">Explorador de Libros</string>
+    <string name="catalog_empty">No hay libros para mostrar</string>
+    <string name="catalog_retry">Reintentar</string>
+    <string name="catalog_refresh">Actualizar catálogo</string>
+    <string name="book_id">ID: %1$d</string>
+    <string name="book_author">Autor: %1$s</string>
+    <string name="book_editorial">Editorial: %1$s</string>
+    <string name="book_pages">%1$d páginas</string>
+    <string name="book_available">Disponible</string>
+    <string name="book_unavailable">No disponible</string>
+    <string name="welcome_subtitle">Ingresa tu nombre y elige tu tema</string>
+    <string name="welcome_greeting">Hola, %1$s</string>
+    <string name="welcome_name_hint">Nombre</string>
+    <string name="welcome_name_required">Ingresa tu nombre</string>
+    <string name="welcome_dark_theme">Modo oscuro</string>
+    <string name="welcome_last_section_catalog">Última sección: Catálogo</string>
+    <string name="welcome_last_section_favorites">Última sección: Favoritos</string>
+    <string name="welcome_go_catalog">Ir al catálogo</string>
+    <string name="welcome_go_favorites">Ver favoritos</string>
+    <string name="detail_title">Detalle del libro</string>
+    <string name="detail_add_favorite">Agregar a favoritos</string>
+    <string name="detail_remove_favorite">Quitar de favoritos</string>
+    <string name="favorites_title">Favoritos</string>
+    <string name="favorites_remove_confirm">¿Quitar &quot;%1$s&quot; de favoritos?</string>
+    <string name="favorites_empty">No tienes favoritos aún</string>
+    <string name="favorites_go_catalog">Ir al catálogo</string>
 </resources>
